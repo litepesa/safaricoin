@@ -1,0 +1,34 @@
+src/*.exe
+src/safaricoin
+src/safaricoind
+src/test_safaricoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.safaricoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+safaricoin-qt
+Safaricoin-Qt.app
+
+# Unit-tests
+Makefile.test
+safaricoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile

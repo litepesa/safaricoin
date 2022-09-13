@@ -1,0 +1,9 @@
+Building Safaricoin
+
+See doc/readme-qt.rst for instructions on building Safaricoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Safaricoin.
+
+See doc/build-*.txt for instructions on building safaricoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of Safaricoin.
